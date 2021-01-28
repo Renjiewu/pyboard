@@ -217,3 +217,13 @@
 #define KEY_RIGHTSHIFT                         0xE5
 #define KEY_RIGHTALT                           0xE6
 #define KEY_RIGHT_GUI                          0xE7
+
+BYTE1 --
+|--bit0: Left Control 按下时为1
+|--bit1: Left Shift按下时为1
+|--bit2: Left Alt按下时为1
+|--bit3: Left GUI按下时为1
+|--bit4: Right Control按下时为1
+|--bit5: Right Shift按下时为1
+|--bit6: Right Alt按下时为1
+|--bit7: Right GUI按下时为1
