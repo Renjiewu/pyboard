@@ -1,6 +1,7 @@
 # main.py -- put your code here!
 import pyb
 hid=pyb.USB_HID()
+servo1 = pyb.Servo(1)
 def release_key_once():
     buf = bytearray(8) # report is 8 bytes long
     buf[2] = 0
