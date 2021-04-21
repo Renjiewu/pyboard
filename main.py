@@ -24,3 +24,5 @@ def release_2key():
     buf[2] = 0
     hid.send(buf) # key released
     pyb.delay(10)
+
+servo1.angle(-30)
